@@ -1,0 +1,47 @@
+.header {
+  margin: 0 8%; /* 8% margin left and right */
+}
+
+.header-content {
+  position: relative;
+  width: 100%;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 8%;
+  left: 5%;
+  width: 50%;
+  color: white;
+  text-align: left;
+}
+
+.text-overlay p {
+  font-size: clamp(10px, 2.7vw, 30px);
+  font-weight: bold;
+  margin-bottom: 1vw;
+}
+
+.text-overlay h3 {
+  font-size: clamp(7px, 2vw, 15px);
+  line-height: 1.5;
+  margin-bottom: 2vw;
+}
+
+.text-overlay button {
+  padding: 1vw 2vw;
+  font-size: clamp(8px, 2vw, 15px);
+  background: white;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+

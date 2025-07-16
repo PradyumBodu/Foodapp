@@ -1,0 +1,44 @@
+.footer{
+    background: rgb(45, 42, 42);
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 5%;
+    color: white;
+    flex-wrap: wrap; 
+    
+}
+.f1 img{
+    padding-bottom: 20px;
+}
+.f1 p{
+    padding-bottom: 20px;
+}
+.f1{
+    width: 40%;
+}
+
+.icon img{
+    width: 40px;
+    padding-right: 2%;
+}
+.com h1{
+    font-size: clamp(18px,2vw,25px) ;
+}
+.com ul{
+    list-style-type: none;
+    margin-top: 20%;
+}
+.com li{
+    padding-bottom: 8%;
+    font-size: clamp(15px,2vw,20px) ;
+
+}
+.com1 p{
+    padding-bottom: 8%;
+}
+.com1{
+    margin-top: 20%;
+    font-size: clamp(15px,2vw,20px) ;
+
+
+}

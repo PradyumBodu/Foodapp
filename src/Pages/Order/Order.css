@@ -1,0 +1,41 @@
+.order{
+    display: flex;
+    justify-content: space-around;
+    margin: 3vw 5vw;
+    flex-wrap: wrap;
+    gap: 5vw;
+}
+.order1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.lower1 h1{
+    font-size: clamp(25px,3vw,40px);
+}
+.order1 h1{
+    font-size: clamp(25px,3vw,40px);
+}
+.inp{
+    margin: 3vw 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    
+}
+.inp1{
+    display: flex;
+    gap: 2vw;
+}
+.inp input{
+    padding: 1vw 2vw;
+    font-size: clamp(12px,2vw,20px);
+    border-radius: 0.5vw;
+
+}
+.lower1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

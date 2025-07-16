@@ -1,0 +1,63 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: white;
+
+}
+.left-nav img{
+    width: 12.5vw;
+    cursor: pointer;
+}
+.center-nav ul{
+    display: flex;
+    gap: 1.5vw;
+}
+.center-nav a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 4px;
+    cursor: pointer;
+    font-size: clamp(13px,1.5vw,20px);
+}
+.right-nav{
+    display: flex;
+    gap: 2vw;
+}
+.right-nav .search{
+    width: clamp(15px,2vw,25px);
+    height: clamp(15px,2vw,25px);
+    cursor: pointer;
+}
+.rn{
+    display: flex;
+}
+.right-nav .busket{
+    width: clamp(15px,2vw,25px);
+    height: clamp(15px,2vw,25px);
+    cursor: pointer;
+}
+.right-nav .dot{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    right: 5px;
+    bottom: 6px;
+}
+.right-nav p{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 0.5vw 1vw;
+    cursor: pointer;
+    font-size: clamp(10px,1.25vw,15px) ;
+}
+.active1{
+    border-bottom: 2px solid black;
+}
